@@ -2,7 +2,8 @@ package nandujava;
 
 public class Addition
 {
-    public int add(int a, int b){
+    public int add(int a, int b)
+    {
       int c = a + b;
       return c;
     }
@@ -11,6 +12,5 @@ public class Addition
         Addition addition = new Addition();
         int result = addition.add(3,9);
         System.out.println("Addition Result ="+result);
-
     }
 }
