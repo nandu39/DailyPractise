@@ -54,6 +54,6 @@ public class SearchBus {
         logger.info("completed validation");
         Thread.sleep(2000);
 //closing current browser
-        driver.quit();
+//        driver.quit();
     }
 }
