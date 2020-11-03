@@ -15,7 +15,7 @@ public class SearchBus {
         Logger logger= Logger.getLogger("SearchBus");
 
 //setting path & initializing chrome driver
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sravan\\Selenium\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
 //invoking portal
