@@ -7,8 +7,8 @@ public class Google
 {
     public static void main(String[] args)
     {
-
-        System.setProperty("webdriver.chrome.driver", "D:\\Selenium_Softwares\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "D:\\Selenium_Softwares\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 
         WebDriver driver=new ChromeDriver();
 
