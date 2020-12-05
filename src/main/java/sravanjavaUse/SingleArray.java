@@ -1,4 +1,4 @@
-package sravanjava;
+package sravanjavaUse;
 
 public class SingleArray
 {

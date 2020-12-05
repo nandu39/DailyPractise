@@ -1,4 +1,4 @@
-package sravanjava;
+package sravanjavaUse;
 
 public class IfConditions {
     public static void main(String[] args) {
