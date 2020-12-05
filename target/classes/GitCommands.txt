@@ -1,0 +1,20 @@
+git add filename.extension
+or
+git add .
+
+git status
+
+git commit -m "commit message"
+
+git push origin branch
+(branch name: nandu)
+===========================================================
+
+Pull Request Raise
+
+- Open git hub
+- go to pull request's
+- Select "Master" -- "Branch"
+- Create pull request
+- Write comments
+- Approve
