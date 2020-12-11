@@ -2,7 +2,7 @@ package sravanjavaUse;
 
 public class BaseClass
 {
-    public void add()
+    public static void add()
     {
         System.out.println("this is add");
     }
