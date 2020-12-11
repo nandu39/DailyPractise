@@ -6,7 +6,6 @@ public class ChildClsA extends BaseClass
     {
         BaseClass bh=new ChildClsA();
         bh.add();
-        bh.sub();git
-
+        bh.sub();
     }
 }

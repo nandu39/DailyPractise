@@ -1,4 +1,4 @@
-package sravanjava;
-
-public class Mult {
-}
+//package sravanjava;
+//
+//public class Mult {
+//}
