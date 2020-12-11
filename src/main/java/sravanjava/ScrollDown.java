@@ -1,4 +1,4 @@
-package sravanjavaUse;
+package sravanjava;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

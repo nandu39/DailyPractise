@@ -1,4 +1,4 @@
-package sravanjavaUse;
+package sravanjava;
 
 public class ChildClass extends BaseClass
 {

@@ -1,4 +1,4 @@
-package sravanjavaUse;
+package sravanjava;
 
 public class Test {
     public int sub(int d, int e)
