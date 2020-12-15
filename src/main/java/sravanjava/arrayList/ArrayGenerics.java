@@ -12,6 +12,7 @@ public class ArrayGenerics
         aStr.add("List");
         aStr.add("123");
 
+        //Enhanced for loop
         for(String s:aStr)
         {
             System.out.println("ArrayList vals are "+s);

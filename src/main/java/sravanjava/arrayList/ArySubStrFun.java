@@ -1,5 +1,7 @@
 package sravanjava.arrayList;
 
+import java.util.Arrays;
+
 public class ArySubStrFun
 {
     public static void main(String [] args)
@@ -18,8 +20,25 @@ public class ArySubStrFun
 //        display last 4 characters
         System.out.println(str3.substring(str3.length() -4,str3.length()));
 
+        //how to find whether 2 Strings has same alphabets (Anagram)
+        String same1="abcdefkl";
+        String same2="fklabcde";
 
+        char s1[]=same1.toCharArray();
+        char s2[]=same2.toCharArray();
+        Arrays.sort(s1);
 
+        //to print Arrays data using String
+        System.out.println("chk "+Arrays.toString(s1));
+        Arrays.sort(s2);
+        if(Arrays.equals(s1,s2))
+        {
+            System.out.println("Both are same");
+        }
+        if(!Arrays.equals(s1,s2))
+        {
+            System.out.println("Both are not same");
+        }
 
     }
 }
