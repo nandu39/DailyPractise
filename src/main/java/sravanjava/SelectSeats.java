@@ -37,12 +37,12 @@ public class SelectSeats
         driver.findElement(By.id("txtJourneyDate")).click();
 //        driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[3]/td[7]")).click();
 
-        driver.findElement(By.cssSelector("table[class=\"ui-datepicker-calendar\"]>tbody>tr:nth-child(2)>td:nth-child(4)>a\n")).click();
+        driver.findElement(By.cssSelector("table[class=\"ui-datepicker-calendar\"]>tbody>tr:nth-child(4)>td:nth-child(4)>a\n")).click();
 
 //        driver.findElement(By.xpath("//*[@id='txtReturnJourneyDate']")).click();
 //        driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[1]/td[7]")).click();
         driver.findElement(By.id("searchBtn")).click();
-        Thread.sleep(3000);
+        Thread.sleep(8000);
 
         driver.findElement(By.id("BtFid")).click();
         driver.findElement(By.cssSelector("input[name=\"NON A/C CLASS\"]")).click();
@@ -70,7 +70,7 @@ public class SelectSeats
         System.out.println("selected boarding");
 
         driver.findElement(By.xpath("//span[text()='KPHB COLONY']/span")).click();
-        driver.findElement(By.xpath("//div[contains(text(),'KPBH')]//parent::div//parent::div/div/input[@type='button']")).click();
+        driver.findElement(By.xpath("//div[contains(text(),'2099')]//parent::div//parent::div/div/input[@type='button']")).click();
 
 
 

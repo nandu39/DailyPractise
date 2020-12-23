@@ -5,6 +5,7 @@ public class Wrapper
     public static void main(String[] args)
     {
         int a=10;
+        // Integer is Wrapper class
         Integer ab=110;
         String ac="123";
         String bd="456";
