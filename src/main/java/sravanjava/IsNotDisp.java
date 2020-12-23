@@ -13,7 +13,10 @@ public class IsNotDisp
         WebDriver driver = new ChromeDriver();
 
             driver.get("https://www.tsrtconline.in/oprs-web/");
-            driver.findElement(By.cssSelector("a[class=\"user\"]")).click();
+        String title = driver.findElement(By.xpath("//input[@id='fromPlaceName']")).getAttribute("title");
+        System.out.println(title);
+
+        driver.findElement(By.cssSelector("a[class=\"user\"]")).click();
             driver.findElement(By.cssSelector("[name=\"userName\"]")).sendKeys("nandunka");
             driver.findElement(By.cssSelector("[name=\"password\"]")).sendKeys("tsrtc@3");
             driver.findElement(By.cssSelector("[value=\"Login\"]")).click();
