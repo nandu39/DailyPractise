@@ -34,6 +34,7 @@ public class ArySubStrFun
         if(Arrays.equals(s1,s2))
         {
             System.out.println("Both are same");
+            System.out.println(s1);
         }
         if(!Arrays.equals(s1,s2))
         {
