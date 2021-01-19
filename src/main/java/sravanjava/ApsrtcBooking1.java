@@ -48,7 +48,6 @@ public class ApsrtcBooking1
 //        driver.findElement(By.xpath("//input[@id=\"SrvcSelectBtnForward0\"]")).click();
 //        driver.findElement(By.id("sbkg")).click();
 
-
 //        driver.close();
     }
 }

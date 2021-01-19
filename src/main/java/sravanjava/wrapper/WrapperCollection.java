@@ -8,7 +8,7 @@ public class WrapperCollection
     {
 //        collections only accepts objects
         ArrayList<Integer> ar=new ArrayList<Integer>();
-//        collections will not accept primitive datatypes, below line will throw error
+//        collections will not accept primitive data-types, below line will throw error
 //        ArrayList<int> ak=new ArrayList<int>();
     }
 }
