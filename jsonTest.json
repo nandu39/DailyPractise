@@ -1,0 +1,3 @@
+myObj = {name: "John", age: 31, city: "New York"};
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);

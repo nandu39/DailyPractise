@@ -14,7 +14,10 @@ public class Wrapper
         int j=Integer.parseInt(bd);
 
         System.out.println(ab.intValue());
+        System.out.println("tst"+ab);
         System.out.println(k+j);
+
+        System.out.println("this is:"+Integer.valueOf(ac));
 
 //        autoboxing
         int bx=30;
@@ -25,6 +28,7 @@ public class Wrapper
         int cy=40;
         Integer yb=Integer.valueOf(cy);
         System.out.println(yb);
+        yb.compareTo(cy);
 
 //        Unboxing
         Integer ka=25;

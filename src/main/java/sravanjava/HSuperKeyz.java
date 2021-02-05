@@ -9,7 +9,6 @@ public class HSuperKeyz extends Parameter
 //        sk.showMeIntAtPvt();
 
 
-
     }
 
     public void showMeInxt()
@@ -21,6 +20,7 @@ public class HSuperKeyz extends Parameter
     {
         showMeInxt();
         System.out.println("Pvt bank");
+        super.mult(2,3);
     }
 }
 
